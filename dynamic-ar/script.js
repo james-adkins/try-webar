@@ -25,7 +25,7 @@ const clickListener = function (ev) {
 // getting places from APIs
 function loadPlaces(position) {
     const params = {
-        radius: 300,    // search places not farther than this value (in meters)
+        radius: 100,    // search places not farther than this value (in meters)
         clientId: 'NJMQWFFXGZTHNCNV5ORT4I3XP0EMOQAEPTNFP0IDCKUPOUQY',
         clientSecret: 'XK3E4NH0Z3TZBZDKAZAOSJGLV0EYVWOQNMINS3PHY4JWGFNB',
         version: '20300101',    // foursquare versioning, required but unuseful for this demo
